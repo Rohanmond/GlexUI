@@ -28,7 +28,7 @@
     border-radius: 0.25rem;
 }
 .btn-secondary:hover:enabled{
-    color: #fff;
+    color:var(--white-color);
     background-color: var(--primary-color);
     border-radius:0.25rem;
     border:0.125rem solid var(--primary-color);
@@ -46,7 +46,7 @@
     border-radius: 0.25rem;
 }
 .btn-link-hover-secondary:hover{
-    color: #fff;
+    color: var(--white-color);
     background-color: var(--primary-color);
     border-radius:0.25rem;
     border:0.125rem solid var(--primary-color);
