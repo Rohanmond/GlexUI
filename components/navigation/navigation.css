@@ -1,0 +1,37 @@
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.hero-link span{
+    display: grid;
+}
+.hero-logo,
+.hero-name{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.hero-name{
+    align-self: end;
+    justify-self: end;
+}
+
+.hero-logo{
+    border-radius: 5px;
+    max-width: 6em;
+}
+.nav-link-container{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.header-link a{
+    text-decoration: none;
+    color: var(--text-secondary-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding:0 1rem;
+}
+.header-link a:hover{
+    color: var(--text-primary-color);
+}
