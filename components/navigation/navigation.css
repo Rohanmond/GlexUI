@@ -16,8 +16,8 @@
 }
 
 .hero-logo{
-    border-radius: 5px;
-    max-width: 6em;
+    border-radius: 0.25rem;
+    max-width: 6rem;
 }
 .nav-link-container{
     list-style-type: none;
