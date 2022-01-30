@@ -35,10 +35,28 @@
     --blue-800:#1e40af;
     --violet-200:#ddd6fe;
     --violet-400:#a78bfa;
-    --violet-200:#7c3aed;
-    --violet-200:#5b21b6;
+    --violet-600:#7c3aed;
+    --violet-800:#5b21b6;
     --pink-200:#fbcfe8;
     --pink-400:#f472b6;
     --pink-600:#db2777;
     --pink-800:#9d174d;
+}
+.background-success{
+    background-color: var(--success-color);
+}
+.background-danger{
+    background-color: var(--danger-color);
+}
+.background-warn{
+    background-color: var(--warn-color);
+}
+.background-online{
+    background-color: var(--success-color);
+}
+.background-offline{
+    background-color: var(--grey-400);
+}
+.background-dnd{
+    background-color: var(--complimentary-color);
 }
