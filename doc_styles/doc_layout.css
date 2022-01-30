@@ -1,5 +1,6 @@
 @import url("./doc_introduction.css");
 @import url("./doc_button.css");
+@import url("./doc_badge.css");
 .doc-container{
     display: grid;
     height: 100vh;

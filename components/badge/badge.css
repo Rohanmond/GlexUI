@@ -1,0 +1,33 @@
+.badge-container{
+  display: grid;
+}
+.badge-status {
+  height: 30%;
+  width: 30%;
+  border-radius: 50%;
+  align-self: start;
+  justify-self: end;
+  border: 0.125rem solid var(--white-color);
+}
+.badge-avatar-circle{
+  border-radius: 50%;
+  border:0.125rem solid var(--white-color);
+  height: 100%;
+  width: 100%;
+  object-position: top center;
+  object-fit: cover;
+}
+.badge-avatar-square{
+  border-radius: 0.5rem;
+  border:0.125rem solid var(--white-color);
+  height: 100%;
+  width: 100%;
+  object-position: top center;  
+  object-fit: cover; 
+}
+.badge-avatar-circle,
+.badge-avatar-square,
+.badge-status {
+grid-column: 1/2;
+grid-row: 1/2;
+}
