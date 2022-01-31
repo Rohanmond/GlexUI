@@ -43,9 +43,9 @@ grid-row: 1/2;
   justify-content: center;
   align-items: center;
   font-size: 0.625rem;
-  font-weight:900;
+  font-weight:700;
   border-radius: 50%;
   align-self: start;
   justify-self: end;
-  color: var(--text-color);
+  color: var(--white-color);
 }
