@@ -45,48 +45,63 @@
 .background-primary{
     background-color: var(--primary-color);
     color: var(--white-color);
+    border:0.125rem solid var(--primary-color);
 }
 .background-success{
     background-color: var(--success-color);
     color: var(--white-color);
+    border:0.125rem solid var(--success-color);
+
 }
 .background-danger{
     background-color: var(--danger-color);
     color: var(--white-color);
+    border:0.125rem solid var(--danger-color);
+
 }
 .background-warn{
     background-color: var(--warn-color);
     color: var(--white-color);
+    border:0.125rem solid var(--warn-color);
+
 }
 .background-online{
     background-color: var(--success-color);
     color: var(--white-color);
+    border:0.125rem solid var(--white-color);
 }
 .background-offline{
     background-color: var(--grey-400);
     color: var(--white-color);
+    border:0.125rem solid var(--white-color);
 }
 .background-dnd{
     background-color: var(--complimentary-color);
     color: var(--white-color);
+    border:0.125rem solid var(--white-color);
 }
 .outlined-primary{
     background-color: var(--background-color);
     border:0.125rem solid var(--primary-color);
+    color: var(--primary-color);
 }
 .outlined-secondary{
     background-color: var(--background-color);
     border:0.125rem solid var(--secondary-color);
+    color: var(--secondary-color);
 }
 .outlined-success{
     background-color: var(--background-color);
     border:0.125rem solid var(--success-color);
+    color: var(--success-color);
 }
 .outlined-warn{
     background-color: var(--background-color);
     border:0.125rem solid var(--warn-color);
+    color: var(--warn-color);
 }
 .outlined-danger{
     background-color: var(--background-color);
     border:0.125rem solid var(--danger-color);
+    color: var(--danger-color);
 }
