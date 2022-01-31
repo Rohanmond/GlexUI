@@ -42,6 +42,9 @@
     --pink-600:#db2777;
     --pink-800:#9d174d;
 }
+.background-primary{
+    background-color: var(--primary-color);
+}
 .background-success{
     background-color: var(--success-color);
 }
