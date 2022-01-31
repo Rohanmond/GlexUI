@@ -68,18 +68,17 @@
 .background-online{
     background-color: var(--success-color);
     color: var(--white-color);
-    border:0.125rem solid var(--success-color);
-
+    border:0.125rem solid var(--white-color);
 }
 .background-offline{
     background-color: var(--grey-400);
     color: var(--white-color);
-    border:0.125rem solid var(--grey-400);
+    border:0.125rem solid var(--white-color);
 }
 .background-dnd{
     background-color: var(--complimentary-color);
     color: var(--white-color);
-    border:0.125rem solid var(--complimentary-color);
+    border:0.125rem solid var(--white-color);
 }
 .outlined-primary{
     background-color: var(--background-color);
