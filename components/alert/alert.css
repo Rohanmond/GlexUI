@@ -1,0 +1,13 @@
+.alert{
+    width: 100%;
+    max-width: 50vw;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: flex-start;
+    border-radius: 0.5rem;
+}
+.alert-close{
+    margin-left: auto;
+    cursor: pointer;
+}
