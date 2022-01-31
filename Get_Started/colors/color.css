@@ -70,3 +70,23 @@
     background-color: var(--complimentary-color);
     color: var(--white-color);
 }
+.outlined-primary{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--primary-color);
+}
+.outlined-secondary{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--secondary-color);
+}
+.outlined-success{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--success-color);
+}
+.outlined-warn{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--warn-color);
+}
+.outlined-danger{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--danger-color);
+}
