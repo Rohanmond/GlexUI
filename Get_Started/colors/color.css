@@ -5,6 +5,7 @@
     --action-color:#5348c7;
     --secondary-color:#8599e6;
     --primary-color:#2f52e0;
+    --primary-color-dark:#1B3ECC;
     --complimentary-color:#ff3830;
     --success-color:#4bb543;
     --danger-color:#ca0b00;
@@ -34,10 +35,73 @@
     --blue-800:#1e40af;
     --violet-200:#ddd6fe;
     --violet-400:#a78bfa;
-    --violet-200:#7c3aed;
-    --violet-200:#5b21b6;
+    --violet-600:#7c3aed;
+    --violet-800:#5b21b6;
     --pink-200:#fbcfe8;
     --pink-400:#f472b6;
     --pink-600:#db2777;
     --pink-800:#9d174d;
+}
+.background-primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border:0.125rem solid var(--primary-color);
+}
+.background-success{
+    background-color: var(--success-color);
+    color: var(--white-color);
+    border:0.125rem solid var(--success-color);
+
+}
+.background-danger{
+    background-color: var(--danger-color);
+    color: var(--white-color);
+    border:0.125rem solid var(--danger-color);
+
+}
+.background-warn{
+    background-color: var(--warn-color);
+    color: var(--white-color);
+    border:0.125rem solid var(--warn-color);
+
+}
+.background-online{
+    background-color: var(--success-color);
+    color: var(--white-color);
+    border:0.125rem solid var(--white-color);
+}
+.background-offline{
+    background-color: var(--grey-400);
+    color: var(--white-color);
+    border:0.125rem solid var(--white-color);
+}
+.background-dnd{
+    background-color: var(--complimentary-color);
+    color: var(--white-color);
+    border:0.125rem solid var(--white-color);
+}
+.outlined-primary{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--primary-color);
+    color: var(--primary-color);
+}
+.outlined-secondary{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+.outlined-success{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--success-color);
+    color: var(--success-color);
+}
+.outlined-warn{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--warn-color);
+    color: var(--warn-color);
+}
+.outlined-danger{
+    background-color: var(--background-color);
+    border:0.125rem solid var(--danger-color);
+    color: var(--danger-color);
 }
