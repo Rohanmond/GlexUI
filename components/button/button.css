@@ -1,26 +1,10 @@
 .btn{
     padding: 0.5rem 0.75rem;
     font-size: 1rem;
-    border-radius: 0.25rem;
-    border:none;
+    border-radius: 0.5rem;
     font-weight: 600;
-}
-.btn-link{
-    padding: 0.5rem 0.75rem;
-    font-size: 1rem;
     text-decoration: none;
-    border-radius: 0.25rem;
-    font-weight: 600;
-}
-.btn-primary{
-    color: var(--background-color);
-    background-color: var(--primary-color);
-    border:0.125rem solid var(--primary-color);
-}
-.btn-secondary{
-    color: var(--secondary-color);
-    background-color: var(--background-color);
-    border:0.125rem solid var(--secondary-color);
+    border: none;
 }
 .btn-primary:hover:enabled{
     background-color: var(--secondary-color);
@@ -30,23 +14,21 @@
 .btn-secondary:hover:enabled{
     color:var(--white-color);
     background-color: var(--primary-color);
-    border-radius:0.25rem;
     border:0.125rem solid var(--primary-color);
 }
-.btn:active,.btn-link:active {
+.btn:active {
     transform: scale(0.98);
     /* Scaling button to 0.98 to its original size */
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
-.btn-link-hover-primary:hover{
+.btn-link-primary:hover{
     background-color: var(--secondary-color);
     border: 0.125rem solid var(--secondary-color);
     color: var(--primary-color-dark);
 }
-.btn-link-hover-secondary:hover{
+.btn-link-secondary:hover{
     color: var(--white-color);
     background-color: var(--primary-color);
-    border-radius:0.25rem;
     border:0.125rem solid var(--primary-color);
 }
 button:disabled,
