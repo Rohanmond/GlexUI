@@ -1,3 +1,4 @@
+@import url("./Get_Started/colors/color.css");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
 @import url("./reset.css");
 @import url("./components/alert/alert.css");
@@ -13,5 +14,4 @@
 @import url("./components/rating/rating.css");
 @import url("./components/text_utilities/text_utilities.css");
 @import url("./components/toast/toast.css");
-@import url("./Get_Started/colors/color.css");
 @import url("./Get_Started/typography/typography.css");
