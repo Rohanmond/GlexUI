@@ -1,6 +1,8 @@
 .doc-alert-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
     align-items: center;
+    margin-top: 1rem;
 }
