@@ -42,21 +42,31 @@
     --pink-600:#db2777;
     --pink-800:#9d174d;
 }
+.background-primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
 .background-success{
     background-color: var(--success-color);
+    color: var(--white-color);
 }
 .background-danger{
     background-color: var(--danger-color);
+    color: var(--white-color);
 }
 .background-warn{
     background-color: var(--warn-color);
+    color: var(--white-color);
 }
 .background-online{
     background-color: var(--success-color);
+    color: var(--white-color);
 }
 .background-offline{
     background-color: var(--grey-400);
+    color: var(--white-color);
 }
 .background-dnd{
     background-color: var(--complimentary-color);
+    color: var(--white-color);
 }
