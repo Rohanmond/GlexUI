@@ -1,0 +1,28 @@
+.avatar-circle{
+    border-radius: 50%;
+    border:0.125rem solid var(--white-color);
+    height: 100%;
+    width: 100%;
+    object-position: top center;
+    object-fit: cover;
+}
+.avatar-square{
+    border-radius: 0.25rem;
+    border:0.125rem solid var(--white-color);
+    height: 100%;
+    width: 100%;
+    object-position: top center;  
+    object-fit: cover; 
+}
+.avatar-container-lg{
+    width: 5rem;
+    height: 5rem;
+}
+.avatar-container-md{
+    width: 4rem;
+    height: 4rem;
+}
+.avatar-container-sm{
+    width: 3rem;
+    height: 3rem;
+}
