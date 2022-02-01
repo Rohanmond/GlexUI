@@ -2,6 +2,7 @@
 @import url("./doc_button.css");
 @import url("./doc_badge.css");
 @import url("./doc_alert.css");
+@import url("./doc-card.css");
 .doc-container{
     display: grid;
     height: 100vh;
