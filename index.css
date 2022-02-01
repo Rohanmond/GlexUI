@@ -33,7 +33,6 @@ body{
     list-style-type: none;
 }
 .index-nav ul li a{
-    text-decoration: none;
     padding: 0 1rem;
     color: var(--secondary-color);
     font-size: 1.2rem;
