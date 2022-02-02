@@ -1,0 +1,8 @@
+.doc-input-container{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.doc-input-container>*{
+    padding: 0.5rem;
+}

@@ -97,6 +97,7 @@ a {
     text-decoration: none;
     outline: none;
     cursor: pointer;
+    color: var(--primary-color);
 }
 img,video{
         max-inline-size: 100%;
