@@ -5,6 +5,7 @@
 @import url("./doc-card.css");
 @import url("./doc_input.css");
 @import url("./doc-text-util.css");
+@import url("./doc_list.css");
 .doc-container{
     display: grid;
     height: 100vh;
