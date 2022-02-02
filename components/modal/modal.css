@@ -1,0 +1,19 @@
+.modal{
+    padding: 0.75rem 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: fixed;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.modal-btn{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.75rem;
+}
