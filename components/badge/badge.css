@@ -8,24 +8,14 @@
   align-self: start;
   justify-self: end;
 }
-.badge-avatar-circle{
-  border-radius: 50%;
+.badge-avatar{
   border:0.125rem solid var(--white-color);
-  height: 100%;
   width: 100%;
-  object-position: top center;
+  height: 100%;
   object-fit: cover;
 }
-.badge-avatar-square{
-  border-radius: 0.5rem;
-  border:0.125rem solid var(--white-color);
-  height: 100%;
-  width: 100%;
-  object-position: top center;  
-  object-fit: cover; 
-}
-.badge-avatar-circle,
-.badge-avatar-square,
+
+.badge-avatar,
 .badge-status,
 .badge-number,
 .badge-icon {
