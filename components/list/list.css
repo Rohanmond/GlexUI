@@ -14,7 +14,6 @@
     border-right: 1px solid var(--text-color);
     display: flex;
     flex-direction: column;
-    /* width: 40rem; */
 }
 .list-spaced-heading{
     padding:1rem;
