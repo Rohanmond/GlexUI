@@ -1,6 +1,7 @@
 .navigation{
     display: flex;
     align-items: center;
+    padding: 0.125rem;
 }
 .hero-link span{
     display: grid;
@@ -23,15 +24,18 @@
     list-style-type: none;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin-left: auto;
+    gap: 1rem;
+    padding: 1rem;
 }
 .header-link a{
     text-decoration: none;
-    color: var(--text-secondary-color);
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding:0 1rem;
+    color: var(--secondary-color);
 }
 .header-link a:hover{
     color: var(--text-primary-color);
+}
+@media screen and(max) {
+    
 }
