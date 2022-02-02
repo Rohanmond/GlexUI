@@ -1,0 +1,47 @@
+.text-secondary-color{
+    color: var(--text-secondary-color);
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-left{
+    text-align: left;
+}
+h1,.text-xxl{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+h2,.text-xl{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+h3,.text-lg{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+h4,.text-md{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+h5,.text-sm{
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+.font-wt-light{
+    font-weight: 300;
+}
+.font-wt-regular{
+    font-weight: 400;
+}
+.font-wt-semibold{
+    font-weight: 600;
+}
+.font-wt-bold{
+    font-weight: 700;
+}
+.font-wt-black{
+    font-weight: 900;
+}
