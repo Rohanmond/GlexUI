@@ -6,18 +6,15 @@
 }
 .img-responsive{
     width: 100%;
-    object-position: top center;  
-    object-fit: cover; 
 }
 .img-semi-square{
     width: 100%;
     border-radius: 10%;
-    object-position: top center;  
-    object-fit: cover; 
 }
 .img-circle{
     width: 100%;
     border-radius: 50%;
+}
+.obj-pos-tp-ct{
     object-position: top center;  
-    object-fit: cover;
 }
