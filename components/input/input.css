@@ -5,7 +5,13 @@
     max-width: 600px;
     justify-content: center;
 }
-.input-container label{
+.input-container-hz{
+    display: flex;
+    gap:0.625rem;
+    align-items: center;
+}
+.input-container label,
+.input-container-hz label{
     display: block;
     margin-bottom: 0.125rem;
     color: var(--success-color);
