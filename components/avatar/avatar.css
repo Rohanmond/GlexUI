@@ -1,18 +1,8 @@
-.avatar-circle{
-    border-radius: 50%;
+.avatar{
     border:0.125rem solid var(--white-color);
-    height: 100%;
     width: 100%;
-    object-position: top center;
+    height: 100%;
     object-fit: cover;
-}
-.avatar-square{
-    border-radius: 0.25rem;
-    border:0.125rem solid var(--white-color);
-    height: 100%;
-    width: 100%;
-    object-position: top center;  
-    object-fit: cover; 
 }
 .avatar-container-lg{
     width: 5rem;
