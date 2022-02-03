@@ -6,10 +6,10 @@
     gap: 1rem;
 }
 .grid-responsive-layout:nth-of-type(1){
-    background-color: var(--blue-200);
+    background-color: var(--yellow-200);
 }
 .grid-responsive-layout:nth-of-type(2){
-    background-color: var(--yellow-200);
+    background-color: var(--blue-200);
 }
 .grid-layout-child{
     padding: 0.5rem;
