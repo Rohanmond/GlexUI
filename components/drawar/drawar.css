@@ -15,10 +15,8 @@
 .drawer-trans-on {
     left: 0;
     transition: left 0.5s ease-out;
-}
-
-  
-  .drawer-trans-off {
+} 
+.drawer-trans-off {
     left: -350px;
     transition: left 0.5s ease-out;
-  }
+}
