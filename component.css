@@ -21,3 +21,6 @@
 @import url("./components/toast/toast.css");
 
 
+.brd-rd-semi-sq{
+    border-radius: 0.375rem;
+}

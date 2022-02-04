@@ -5,6 +5,10 @@
     /* flex-direction: column; */
     align-items: center;
     justify-content: space-around;
+    gap: 1rem;
+}
+.doc-card-container>*{
+    max-width: 22rem;
 }
 @media screen and (max-width:600px) {
     .doc-card-container{
