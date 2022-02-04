@@ -1,48 +1,18 @@
 @import url("./doc_introduction.css");
-@import url("./doc_button.css");
-@import url("./doc_badge.css");
+@import url("./doc_colors.css");
 @import url("./doc_alert.css");
-@import url("./doc-card.css");
-@import url("./doc_input.css");
-@import url("./doc-text-util.css");
+@import url("./doc_avatar.css");
+@import url("./doc_badge.css");
+@import url("./doc_button.css");
+@import url("./doc_card.css");
+@import url("./doc_drawar.css");
+@import url("./doc_grid.css");
 @import url("./doc_image.css");
-@import url("./doc_rating.css");
+@import url("./doc_input.css");
 @import url("./doc_list.css");
+@import url("./doc_modal.css");
+@import url("./doc_navigation.css");
+@import url("./doc_rating.css");
 @import url("./doc_slider.css");
-
-.doc-container{
-    display: grid;
-    height: 100vh;
-    width: 80vw;
-    margin-left: auto;
-    margin-right: auto;
-    /* grid-template-columns: 250px 1fr; */
-    grid-template-areas: 
-    "nav nav nav nav nav nav"
-    "aside main main main main main"
-    "aside main main main main main"
-    "aside main main main main main"
-    "aside main main main main main"
-    "aside main main main main main"
-    "aside main main main main main"
-    "footer footer footer footer footer footer";
-}
-.doc-navigation{
-    grid-area: nav;
-    background-color: violet;
-}
-.doc-aside{
-    padding: 2rem;
-    grid-area: aside;
-    background-color: wheat;
-}
-.doc-main{
-    padding: 2rem;
-    grid-area: main;
-    background-color: yellow;
-}
-.doc-footer{
-    padding: 2rem;
-    grid-area: footer;
-    background-color: antiquewhite;
-}
+@import url("./doc_text-util.css");
+@import url("./doc_toast.css");
