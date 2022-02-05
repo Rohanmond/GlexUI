@@ -1,39 +1,53 @@
 .navigation{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.125rem;
+}
+.nav-logo-container{
+    width: 6rem;
+    height: 6rem;
+}
+.hero-logo{
     width: 100%;
 }
-.hero-link span{
-    display: grid;
+.nav-search{
+    width: 20rem;
 }
-.hero-logo,
-.hero-name{
-    grid-row: 1/2;
-    grid-column: 1/2;
-}
-.hero-name{
-    align-self: end;
-    justify-self: end;
-}
-
-.hero-logo{
-    border-radius: 0.25rem;
-    max-width: 6rem;
-}
-.nav-link-container{
+.nav-links{
     list-style-type: none;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    margin-left: auto;
-    gap: 1rem;
-    padding: 1rem;
+    padding: 0 1rem;
 }
-.header-link a{
-    text-decoration: none;
+.nav-link-item a{
+    padding:0 1rem;
+    color: var(--primary-color);
+}
+.nav-link-item a:hover{
+    padding:0 1rem;
     color: var(--secondary-color);
 }
-.header-link a:hover{
-    color: var(--text-color);
+.nav-mobile{
+    display: none;
+}
+@media screen and (max-width:700px) {
+    .nav-logo-container{
+        width: 5rem;
+        height: 5rem;
+    }
+    .nav-desktop{
+        display: none;
+    }
+    .nav-mobile{
+        display: block;
+    }
+}
+@media screen and (max-width:500px) {
+    .nav-logo-container{
+        width: 4rem;
+        height: 4rem;
+    }
+    .nav-mid{
+        display: none;
+    }
 }

@@ -8,14 +8,14 @@ body{
 }
 .index-body{
     height: 100%;
-    width: 80%;
+    width: 80vw;
     margin-left: auto;
     margin-right: auto ;
     display: grid;
     justify-self: center;
     align-self: center;
     grid-template-areas: 
-    "... header header header header ..."
+    "header header header header header header"
     "... ... ... ... ... ... "
     "... ... main main ... ..."
     "... ... main main ... ..."
@@ -34,11 +34,10 @@ body{
 }
 .index-nav ul li a{
     padding: 0 1rem;
-    color: var(--secondary-color);
-    font-size: 1.2rem;
+    color: var(--primary-color);
 }
 .index-nav ul li a:hover{
-    color: var(--white-color);
+    color: var(--secondary-color);
 }
 .index-hero-logo{
     width: 15rem;
@@ -67,6 +66,7 @@ body{
 .index-main-content h2{
     font-size: 2rem;
     text-align: center;
+    color: var(--secondary-color);
 }
 .index-main-content p{
     font-size: 1.2rem;

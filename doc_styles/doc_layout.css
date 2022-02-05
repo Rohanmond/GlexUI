@@ -17,3 +17,68 @@
 @import url("./doc_text-util.css");
 @import url("./doc_toast.css");
 
+.doc-container{
+    display: grid;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas:
+    "nav nav nav nav"
+    "aside main main main"
+    "aside main main main"
+    "aside main main main"
+    "aside main main main"
+    "aside main main main";
+}
+.doc-nav{
+    grid-area: nav;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+}
+.doc-nav-logo-container{
+    max-width: 15rem;
+}
+.doc-aside{
+    grid-area: aside;
+    background-color: var(--background-color);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.doc-main{
+    grid-area: main;
+}
+.doc-main-container{
+    padding: 1rem;
+}
+.doc-main-header{
+    padding: 1rem 0;
+}
+.doc-main-subheader{
+    padding: 0.5rem 0;
+}
+.doc-main-text{
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+.doc-main-hr{
+    margin: 1.2rem 0;
+    border: 0;
+    height: 1px;
+    background: var(--black-color);
+    background-image: linear-gradient(to right, var(--grey-200),var(--black-color), var(--grey-200));
+}
+.doc-main-code-block{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.doc-main-code-block iframe{
+    width: 100%;
+    /* max-width: 800px; */
+    transform: scale(1);
+    overflow: hidden;
+}

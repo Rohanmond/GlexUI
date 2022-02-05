@@ -34,7 +34,7 @@
 }
 
 .list-item-active{
-    color: var(--action-color);
+    color: var(--primary-color);
 }
 .list-stacked-heading{
     display: flex;
