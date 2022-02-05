@@ -81,6 +81,12 @@
     margin-bottom: 2rem;
 }
 
+.doc-main-output-container{
+    background-color: var(--grey-200);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    width: 100%;
+}
 
 
 .doc-main-code-block iframe{
