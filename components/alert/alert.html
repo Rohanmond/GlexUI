@@ -12,37 +12,282 @@
     <link rel="manifest" href="../../favicon_io/site.webmanifest">
 </head>
 <body>
-    <div class="doc-alert-container">
-        <div class="alert background-primary brd-rd-semi-sq">
-            <span class="alert-msg"><strong>Primary!</strong> This is a primary alert</span>
-            <span class="material-icons alert-close">close</span>                
-        </div>
-        <div class="alert background-success brd-rd-semi-sq">
-            <span class="alert-msg"><strong>Secondary!</strong> This is a secondary alert</span>
-            <span class="material-icons alert-close">close</span>                
-        </div>
-        <div class="alert background-warn brd-rd-semi-sq">
-            <span class="alert-msg"><strong>Success!</strong> This is a success alert</span>              
-        </div>
-        <div class="alert background-danger">
-            <span class="alert-msg"><strong>Warning!</strong> This is a warning alert</span>
-            <span class="material-icons alert-close">close</span>                
-        </div>
-        <div class="alert outlined-primary brd-rd-semi-sq">
-            <span class="alert-msg"><strong>Primary!</strong> This is a primary alert</span>           
-        </div>
-        <div class="alert outlined-success">
-            <span class="alert-msg"><strong>Secondary!</strong> This is a secondary alert</span>
-            <span class="material-icons alert-close">close</span>                
-        </div>
-        <div class="alert outlined-warn">
-            <span class="alert-msg"><strong>Success!</strong> This is a success alert</span>
-            <span class="material-icons alert-close">close</span>                
-        </div>
-        <div class="alert outlined-danger">
-            <span class="alert-msg"><strong>Warning!</strong> This is a warning alert</span>
-            <span class="material-icons alert-close">close</span>                
-        </div>
+    <div class="doc-container">
+        <nav class="doc-nav navigation">
+            <div class="nav-left">
+                <div class="doc-nav-logo-container">
+                    <a href="">
+                        <img class="hero-logo" src="../../src/Glex UI-new cropped.png" alt="">
+                    </a>
+                </div>
+                
+            </div>
+            <div class="nav-right">
+                <ul class="nav-links doc-nav-links nav-desktop"> 
+                    <li class="nav-link-item text-lg"><a href=""><i class="fab fa-github"></i></a></li>
+                    <li class="nav-link-item text-lg"><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-link-item text-lg"><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+                <ul class="nav-links nav-mobile">
+                    <li class="nav-link-item drawar-menu-btn">
+                           <a><i class="fas fa-bars font-wt-bold text-lg"></i></a> 
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <aside class="doc-aside">
+                <ul class="list-spaced">
+                    <div class="list-spaced-heading"><h3>Get Started</h3></div>
+                    <a href="../../Get_Started/introduction/introduction.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Introduction</li>
+                    </a>
+                    <a href="../../Get_Started/colors/colors.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Colors</li>
+                    </a>
+                    <a href="../text_utilities/text_utilities.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Text Utilities</li>
+                    </a>
+                    <div class="list-spaced-heading"><h3>Components</h3></div>
+                    <a href="../alert/alert.html">
+                        <li class="list-spaced-item text-md font-wt-bold list-item-active">Alert</li>
+                    </a>
+                    <a href="../avatar/avater.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Avatar</li>
+                    </a>
+                    <a href="../badge/badge.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Badge</li>
+                    </a>
+                    <a href="../button/button.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Button</li>
+                    </a>
+                    <a href="../card/card.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Card</li>
+                    </a>
+                    <a href="../drawar/drawar.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Drawar</li>
+                    </a> 
+                    <a href="../grid/grid.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Grid</li>
+                    </a>
+                    <a href="../image/images.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Image</li>
+                    </a>
+                    <a href="../input/input.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Input</li>
+                    </a> 
+                    <a href="../list/list.html">
+                        <li class="list-spaced-item text-md font-wt-bold">List</li>
+                    </a>
+                    <a href="../modal/modal.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Modal</li>
+                    </a>
+                    <a href="../navigation/navigation.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Navigation</li>
+                    </a>
+                    <a href="../rating/rating.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Rating</li>
+                    </a>
+                    <a href="../slider/slider.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Slider</li>
+                    </a>
+                    <a href="../toast/toast.html">
+                        <li class="list-spaced-item text-md font-wt-bold">Toast</li>
+                    </a>  
+                </ul>
+        </aside>
+        <main class="doc-main">
+          <div class="doc-main-container">
+            <h2 class="doc-main-header">Alert</h2>
+            <p class="doc-main-text">Alerts are used to attract user's attraction for important information without interrupting the user's flow.</p>
+            <hr class="doc-main-hr">
+
+            <h3 class="doc-main-subheader">Simple Alert</h3>
+            <p class="doc-main-text">Simple Alert can be created using <span class="font-wt-bold">alert</span> class, followed by other utility classes.</p>
+            <div class="doc-main-output-container">
+                <div class="doc-alert-container">
+                    <div class="alert background-primary brd-rd-semi-sq">
+                        <span class="alert-msg">Primary! This is a primary alert</span>              
+                    </div>
+                    <div class="alert background-secondary brd-rd-semi-sq">
+                        <span class="alert-msg">Secondary! This is a secondary alert</span>                
+                    </div>
+                    <div class="alert background-success brd-rd-semi-sq">
+                        <span class="alert-msg">Success! This is a success alert</span>              
+                    </div>
+                    <div class="alert background-warn brd-rd-semi-sq">
+                        <span class="alert-msg">Warning! This is a warning alert</span>              
+                    </div>
+                    <div class="alert background-danger brd-rd-semi-sq">
+                        <span class="alert-msg">Danger! This is a danger alert</span>             
+                    </div>
+                </div>
+            </div>
+            <div class="doc-main-code-block">
+                <iframe
+  src="https://carbon.now.sh/embed/K380ZZfsHGveQbVxODIV"
+  style="height: 545px;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+            <hr class="doc-main-hr">
+
+            <h3 class="doc-main-subheader">Outlined Alert</h3>
+            <p class="doc-main-text">Outlined Alert can be created using <span class="font-wt-bold">alert</span> class, followed by <span class="font-wt-bold">outlined-</span>utility classes.</p>
+            <div class="doc-main-output-container">
+                <div class="doc-alert-container">
+                    <div class="alert outlined-primary brd-rd-semi-sq">
+                        <span class="alert-msg">Primary! This is a primary outlined alert</span>              
+                    </div>
+                    <div class="alert outlined-secondary brd-rd-semi-sq">
+                        <span class="alert-msg">Secondary! This is a secondary outlined alert</span>                
+                    </div>
+                    <div class="alert outlined-success brd-rd-semi-sq">
+                        <span class="alert-msg">Success! This is a success outlined alert</span>              
+                    </div>
+                    <div class="alert outlined-warn brd-rd-semi-sq">
+                        <span class="alert-msg">Warning! This is a warning outlined alert</span>              
+                    </div>
+                    <div class="alert outlined-danger brd-rd-semi-sq">
+                        <span class="alert-msg">Danger! This is a danger outlined alert</span>             
+                    </div>
+                </div>
+            </div>
+            <div class="doc-main-code-block">
+                <iframe
+  src="https://carbon.now.sh/embed/jbZjoosHFXti6JcpQioO"
+  style="height: 540px;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+            <hr class="doc-main-hr">
+            <h3 class="doc-main-subheader">Alert with close</h3>
+            <p class="doc-main-text">We can add optional close button using material-icons</p>
+            <div class="doc-main-output-container">
+                <div class="doc-alert-container">
+                    <div class="alert background-primary brd-rd-semi-sq">
+                        <span class="alert-msg"><strong>Primary!</strong> This is a primary alert</span>
+                        <span class="material-icons alert-close">close</span>                
+                    </div>
+                </div>
+            </div>
+            <div class="doc-main-code-block">
+                    <iframe
+  src="https://carbon.now.sh/embed/NDAWNkO0jpPdvyDhHzot"
+  style="height: 260px;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+                </div>
+          </div>
+        </main>
     </div>
+
+
+
+    <script src="https://kit.fontawesome.com/aea77d48ee.js" crossorigin="anonymous"></script>
 </body>
+
+<!-- <div class="doc-main-container">
+    <h2 class="doc-main-header">Text Utilities</h2>
+    <p class="doc-main-text">Documentation and examples for GlexUI typography, including global settings, headings, body text, lists, and more.</p>
+    <hr class="doc-main-hr">
+    <h3 class="doc-main-subheader">Heading</h3>
+    <p class="doc-main-text">HTML headings, &lt;h1&gt; through &lt;h5&gt;, are available.</p>
+    <div class="doc-main-output-container">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+    </div>
+    <div class="doc-main-code-block">
+       
+        <iframe
+        src="https://carbon.now.sh/embed/hZOZbQxsSadDNqnpF7vg"
+        style=" height: 279px;"
+        sandbox="allow-scripts allow-same-origin">
+      </iframe>
+    </div>
+    <hr class="doc-main-hr">
+    <h3 class="doc-main-subheader">Paragraph</h3>
+    <p class="doc-main-text">GlexUI provides different types of Paragraph styling with predefined class</p>
+    <div class="doc-main-output-container">
+        <p class="text-xxl">Extra extra large para</p>
+        <p class="text-xl">Extra large para</p>
+        <p class="text-lg">Large para</p>
+        <p class="text-md">Medium para</p>
+        <p class="text-sm">Small para</p>
+        <p class="text-lg font-wt-semibold text-secondary-color">Grey text</p>
+    </div>
+    <div class="doc-main-code-block">
+        <iframe
+src="https://carbon.now.sh/embed/lFXgGXkSxJIOkGMKCuLI"
+style="height: 298px;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </div>
+    <hr class="doc-main-hr">
+    <h3 class="doc-main-subheader">Font Weights</h3>
+    <p class="doc-main-text">GlexUI provides different types of Fonts weights with predefined classes</p>
+    <div class="doc-main-output-container">
+        <p class="font-wt-light">Font weight-light</p>
+        <p class="font-wt-regular">Font weight-Regular</p>
+        <p class="font-wt-semibold">Font weight-Semibold</p>
+        <p class="font-wt-bold">Font weight-Bold</p>
+        <p class="font-wt-black">Font weight-Black</p>
+    </div>
+    <div class="doc-main-code-block">
+        <iframe
+src="https://carbon.now.sh/embed/1jTpIj4qssUNfV3QBSnV"
+style="height: 279px;"
+sandbox="allow-scripts allow-same-origin">
+</iframe>
+    </div>
+    <hr class="doc-main-hr">
+    <h3 class="doc-main-subheader">Other Text Utilities</h3>
+    <div class="doc-main-output-container">
+        <p class="text-align-center">Centerred text</p>
+        <p class="text-align-left">Left aligned text</p>
+        <p class="text-align-right">Right aligned text</p>
+    </div>
+    <div class="doc-main-code-block">
+        <iframe
+            src="https://carbon.now.sh/embed/M9C4miu5ozvkY6cVGYsI"
+            style="height: 260px;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </div>
+</div> -->
+
+<!-- <div class="doc-alert-container">
+    <div class="alert background-primary brd-rd-semi-sq">
+        <span class="alert-msg"><strong>Primary!</strong> This is a primary alert</span>
+        <span class="material-icons alert-close">close</span>                
+    </div>
+    <div class="alert background-success brd-rd-semi-sq">
+        <span class="alert-msg"><strong>Secondary!</strong> This is a secondary alert</span>
+        <span class="material-icons alert-close">close</span>                
+    </div>
+    <div class="alert background-warn brd-rd-semi-sq">
+        <span class="alert-msg"><strong>Success!</strong> This is a success alert</span>              
+    </div>
+    <div class="alert background-danger">
+        <span class="alert-msg"><strong>Warning!</strong> This is a warning alert</span>
+        <span class="material-icons alert-close">close</span>                
+    </div>
+    <div class="alert outlined-primary brd-rd-semi-sq">
+        <span class="alert-msg"><strong>Primary!</strong> This is a primary alert</span>           
+    </div>
+    <div class="alert outlined-success">
+        <span class="alert-msg"><strong>Secondary!</strong> This is a secondary alert</span>
+        <span class="material-icons alert-close">close</span>                
+    </div>
+    <div class="alert outlined-warn">
+        <span class="alert-msg"><strong>Success!</strong> This is a success alert</span>
+        <span class="material-icons alert-close">close</span>                
+    </div>
+    <div class="alert outlined-danger">
+        <span class="alert-msg"><strong>Warning!</strong> This is a warning alert</span>
+        <span class="material-icons alert-close">close</span>                
+    </div>
+</div> -->
 </html>
