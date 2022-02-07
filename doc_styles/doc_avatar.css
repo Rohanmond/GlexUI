@@ -1,0 +1,5 @@
+.doc-avatar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
