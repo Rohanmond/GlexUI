@@ -87,7 +87,12 @@
     border-radius: 0.25rem;
     width: 100%;
 }
-
+.doc-main-output-secondary-container{
+    background-color: var(--pink-200);
+    padding: 1rem;
+    border-radius: 0.25rem;
+    width: 100%;
+}
 
 .doc-main-code-block iframe{
     width: 100%;
