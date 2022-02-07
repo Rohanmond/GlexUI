@@ -3,7 +3,8 @@
   width: 270px;
   left: -350px;
   position: fixed;
-  z-index: 1;
+  overflow-y: scroll;
+  z-index: 99;
   background-color: var(--background-color);
   top: 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
