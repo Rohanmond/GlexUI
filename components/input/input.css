@@ -39,7 +39,7 @@
 .text-input::placeholder,
 .number-input::placeholder,
 .password-input::placeholder{
-    color: var(--green-200);
+    color: var(--green-400);
     font-weight: 700;
 }
 .input-container.error label,
@@ -53,5 +53,5 @@
     border: 0.125rem solid var(--red-600);
 }
 .input-container.error input::placeholder{
-    color: var(--red-200);
+    color: var(--red-400);
 }
