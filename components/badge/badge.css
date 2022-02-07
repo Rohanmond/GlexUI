@@ -23,7 +23,7 @@ grid-column: 1/2;
 grid-row: 1/2;
 }
 .badge-icon span{
-  padding: 1rem;
+  padding: 0.875rem;
 }
 .badge-number{
   width: 1.5rem;
