@@ -41,3 +41,18 @@ button[disabled]{
   background-color:var(--grey-400);
   color:var(--white-color);
 }
+.floating-btn{
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-color);
+}
+.floating-btn:hover{
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
