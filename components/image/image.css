@@ -1,7 +1,9 @@
 .img-responsive-container{
-    max-width: 800px;
+    width: 100%;
+    max-width: 1200px;
 }
 .img-container{
+    width: 100%;
     max-width: 300px;
 }
 .img-responsive{
