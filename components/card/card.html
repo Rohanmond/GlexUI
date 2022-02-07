@@ -12,71 +12,6 @@
     <link rel="manifest" href="../../favicon_io/site.webmanifest">
 </head>
 <body>
-    <!-- <div class="doc-card-container">
-        <div class="card-container card-container-shadow">
-            <div class="card-img-container">
-                <img class="card-img" src="https://picsum.photos/300/375" alt="card image">
-                <button class="card-img-tag-btn">
-                    <span class="material-icons">favorite_border</span>
-                </button>
-            </div>
-            <div class="card-content">
-                <div class="card-text">
-                    <div>Men Premium Jacket</div>
-                    <div class="card-subtitle">₹2000</div>
-                </div>
-                <div class="card-footer-elements">
-                    <button class="btn btn-primary background-primary">Add to cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="card-container card-container-hz">
-            <div class="card-img-container-hz">
-                <img class="card-img" src="https://picsum.photos/300/375" alt="card image">
-                <button class="card-img-tag-btn">
-                    <span class="material-icons">favorite_border</span>
-                </button>
-            </div>
-            <div class="card-content">
-                <div class="card-text">
-                    <div>Men Premium Jacket</div>
-                    <div class="card-subtitle">₹2000</div>
-                </div>
-                <div class="card-footer-elements">
-                    <button class="btn btn-primary background-primary">Add to cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="card-container card-container-shadow">
-            <div class="card-img-container">
-                <img class="card-img" src="https://picsum.photos/300/375" alt="card image">
-                <button class="card-img-tag-btn">
-                    <span class="material-icons">favorite_border</span>
-                </button>
-                <div class="card-img-text-overlay">
-                    Lorem ipsum dolor sit amet consectetur
-                </div>
-            </div>
-            <div class="card-content">
-                <div class="card-text">
-                    <div>Men Premium Jacket</div>
-                    <div class="card-subtitle">₹2000</div>
-                </div>
-                <div class="card-footer-elements">
-                    <button class="btn btn-primary background-primary">Add to cart</button>
-                </div>
-            </div>
-        </div>
-        <div class="card-container"> 
-            <span class="material-icons card-close-btn">close</span>                     
-            <div class="card-content">
-                <div class="card-text">
-                    <div class="card-title"><h3>Men Premium Jacket</h3></div>
-                    <div class="card-context">Lorem ipsum, dolor sit amet conse adipisicing elit. Debitis, exercitationem!</div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <div class="doc-container">
         <nav class="doc-nav navigation">
             <div class="nav-left">
@@ -119,13 +54,13 @@
                         <li class="list-spaced-item text-md font-wt-bold">Avatar</li>
                     </a>
                     <a href="../badge/badge.html">
-                        <li class="list-spaced-item text-md font-wt-bold list-item-active">Badge</li>
+                        <li class="list-spaced-item text-md font-wt-bold">Badge</li>
                     </a>
                     <a href="../button/button.html">
                         <li class="list-spaced-item text-md font-wt-bold">Button</li>
                     </a>
                     <a href="../card/card.html">
-                        <li class="list-spaced-item text-md font-wt-bold">Card</li>
+                        <li class="list-spaced-item text-md font-wt-bold list-item-active">Card</li>
                     </a>
                     <a href="../drawar/drawar.html">
                         <li class="list-spaced-item text-md font-wt-bold">Drawar</li>
@@ -161,74 +96,124 @@
         </aside>
         <main class="doc-main">
             <div class="doc-main-container">
-                <h2 class="doc-main-header">Badge</h2>
-                <p class="doc-main-text">Badge are small circles, positioned either at the top-right or bottom right of the parent components. Badge can be used to display numbers, online/offline status</p>
-                <p class="doc-main-text">Badge have to be wrapped inside <span class="font-wt-bold">badge-container</span> class</p>
+                <h2 class="doc-main-header">Card</h2>
+                <p class="doc-main-text">Card are used to show user related data collectively.These custom cards are flexible with user given width and height.</p>
                 <hr class="doc-main-hr">
-                <h3 class="doc-main-subheader">Badge on avatar</h3>
-                <p class="doc-main-text"><span class="font-wt-semibold">badge-avatar</span> class we have to use.</p>
-
-                <p class="doc-main-text">Badge on avatar size will be decrease or increase automatically based on the container size</p>
-
+                <h3 class="doc-main-subheader">Simple Card</h3>
+                <p class="doc-main-text">Simple Card contains only a title and a descriptive text</p>
                 <div class="doc-main-output-container">
-                    <div class="doc-badge-container">
-                        <div class="badge-container avatar-container-xxl">
-                            <img class="badge-avatar img-circle obj-pos-tp-ct" src="https://picsum.photos/300/300" alt="sample image circle">
-                            <div class="badge-status background-online"></div>
-                        </div>
-                        <div class="badge-container avatar-container-xl">
-                            <img class="badge-avatar img-semi-square obj-pos-tp-ct" src="https://picsum.photos/300/300" alt="sample image sq">
-                            <div class="badge-status background-offline"></div>
-                        </div>
-                        <div class="badge-container avatar-container-lg">
-                            <img class="badge-avatar img-circle obj-pos-tp-ct" src="https://picsum.photos/300/300" alt="sample image circle">
-                            <div class="badge-status background-dnd"></div>
-                        </div>
-                        <div class="badge-container avatar-container-md">
-                            <img class="badge-avatar img-semi-square obj-pos-tp-ct" src="https://picsum.photos/300/300" alt="sample image circle">
-                            <div class="badge-status background-online"></div>
-                        </div>
-                        <div class="badge-container avatar-container-sm">
-                            <img class="badge-avatar img-circle obj-pos-tp-ct" src="https://picsum.photos/300/300" alt="sample image sq">
-                            <div class="badge-status background-offline"></div>
+                    <div class="doc-card-container">
+                        <div class="card-container"> 
+                            <span class="material-icons card-close-btn">close</span>                     
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div class="card-title"><h3>Men Premium Jacket</h3></div>
+                                    <div class="card-context">Lorem ipsum, dolor sit amet conse adipisicing elit. Debitis, exercitationem!</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="doc-main-code-block">
                     <iframe
-                        src="https://stackblitz.com/edit/web-platform-ejoscf?embed=1&file=badge.html&hideExplorer=1&hideNavigation=1&theme=dark&view=editor"
+                        src="https://stackblitz.com/edit/web-platform-xjtbc6?embed=1&file=card1.html&hideExplorer=1&hideNavigation=1&theme=dark&view=editor"
                         style="height: 300px;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
                 <hr class="doc-main-hr">
-                <h3 class="doc-main-subheader">Badge on icon</h3>
-                <p class="doc-main-text"><span class="font-wt-semibold">badge-icon</span> class we have to  to use.</p>
+                <h3 class="doc-main-subheader">Image Card</h3>
+                <p class="doc-main-text">Image card contains an image,title and text.</p>
                 <div class="doc-main-output-container">
-                    <div class="doc-badge-container">
-                        <div class="badge-container">
-                            <div class="badge-icon">
-                                <span class="material-icons">shopping_cart</span>
+                    <div class="doc-card-container">
+                        <div class="card-container card-container-shadow">
+                            <div class="card-img-container">
+                                <img class="card-img" src="../../src/card/card image.png" alt="card image">
+                                <button class="card-img-tag-btn">
+                                    <span class="material-icons">favorite_border</span>
+                                </button>
                             </div>
-                            <div class="badge-number background-online">12</div>
-                        </div>
-                        <div class="badge-container">
-                            <div class="badge-icon">
-                                <span class="material-icons">email</span>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div>Men Premium Jacket</div>
+                                    <div class="card-subtitle">₹2000</div>
+                                </div>
+                                <div class="card-footer-elements">
+                                    <button class="btn btn-primary background-primary">Add to cart</button>
+                                </div>
                             </div>
-                            <div class="badge-number background-dnd">99+</div>
-                        </div>
-                        <div class="badge-container">
-                            <div class="badge-icon">
-                                <span class="material-icons">notifications</span>
-                            </div>
-                            <div class="badge-number background-dnd">8</div>
                         </div>
                     </div>
                 </div>
                 <div class="doc-main-code-block">
                     <iframe
-                        src="https://stackblitz.com/edit/web-platform-ejoscf?embed=1&file=badge2.html&hideExplorer=1&hideNavigation=1&theme=dark&view=editor"
+                        src="https://stackblitz.com/edit/web-platform-xjtbc6?embed=1&file=card2.html&hideExplorer=1&hideNavigation=1&theme=dark&view=editor"
+                        style="height: 300px;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <hr class="doc-main-hr">
+                <h3 class="doc-main-subheader">Image Card Horizontal</h3>
+                <p class="doc-main-text">We can change the layout of the card to horizontal by adding only <span class="font-wt-bold">card-container-hz</span> to the card container and add <span class="font-wt-bold">card-img-container-hz</span> class to the card image container</p>
+                <div class="doc-main-output-container">
+                    <div class="doc-card-container">
+                        <div class="card-container card-container-hz">
+                            <div class="card-img-container-hz">
+                                <img class="card-img" src="../../src/card/card image.png" alt="card image">
+                                <button class="card-img-tag-btn">
+                                    <span class="material-icons">favorite_border</span>
+                                </button>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div>Men Premium Jacket</div>
+                                    <div class="card-subtitle">₹2000</div>
+                                </div>
+                                <div class="card-footer-elements">
+                                    <button class="btn btn-primary background-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doc-main-code-block">
+                    <iframe
+                        src="https://stackblitz.com/edit/web-platform-xjtbc6?embed=1&file=card3.html&hideExplorer=1&hideNavigation=1&theme=dark&view=editor"
+                        style="height: 300px;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <hr class="doc-main-hr">
+                <h3 class="doc-main-subheader">Image Card With Text Overlay</h3>
+                <p class="doc-main-text">We can add a text-overlay to an image by adding <span class="font-wt-bold">card-img-text-overlay</span> class to the text</p>
+                <div class="doc-main-output-container">
+                    <div class="doc-card-container">
+                        <div class="card-container card-container-shadow">
+                            <div class="card-img-container">
+                                <img class="card-img" src="../../src/card/card image.png" alt="card image">
+                                <button class="card-img-tag-btn">
+                                    <span class="material-icons">favorite_border</span>
+                                </button>
+                                <div class="card-img-text-overlay">
+                                    Lorem ipsum dolor sit amet consectetur
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <div>Men Premium Jacket</div>
+                                    <div class="card-subtitle">₹2000</div>
+                                </div>
+                                <div class="card-footer-elements">
+                                    <button class="btn btn-primary background-primary">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="doc-main-code-block">
+                    <iframe
+                        src="https://stackblitz.com/edit/web-platform-xjtbc6?embed=1&file=card4.html&hideExplorer=1&hideNavigation=1&theme=dark&view=editor"
                         style="height: 300px;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
@@ -236,6 +221,5 @@
             </div>
         </main>
     </div>
-    
 </body>
 </html>
