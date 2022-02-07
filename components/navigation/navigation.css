@@ -1,7 +1,12 @@
 .navigation{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+}
+.nav-left{
+    margin-right: auto;
+}
+.nav-right{
+    margin-left: auto;
 }
 .nav-logo-container{
     width: 6rem;
