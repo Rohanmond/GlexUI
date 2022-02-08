@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 @import url("./reset.css");
@@ -20,7 +20,11 @@
 @import url("./components/slider/slider.css");
 @import url("./components/toast/toast.css");
 
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--background-color);
+}
 
-.brd-rd-semi-sq{
-    border-radius: 0.375rem;
+.brd-rd-semi-sq {
+  border-radius: 0.375rem;
 }
