@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 @import url("./reset.css");
+@import url("./components/navigation/navigation.css");
 @import url("./Get_Started/colors/color.css");
 @import url("./components/text_utilities/text_utilities.css");
 @import url("./components/alert/alert.css");
@@ -15,7 +16,6 @@
 @import url("./components/input/input.css");
 @import url("./components/list/list.css");
 @import url("./components/modal/modal.css");
-@import url("./components/navigation/navigation.css");
 @import url("./components/rating/rating.css");
 @import url("./components/slider/slider.css");
 @import url("./components/toast/toast.css");
