@@ -4,6 +4,7 @@
   width: 100%;
   max-width: 800px;
   justify-content: center;
+  border-radius: 0.25rem;
 }
 .input-container-hz {
   display: flex;
@@ -24,24 +25,25 @@
   font-size: 1rem;
   padding: 0.5rem 0.75rem;
   /* border: 0.125rem solid var(--grey-600); */
-  transition: 0.4s all ease;
+  transition: 0.2s all ease;
 }
 .text-input:hover,
 .number-input:hover,
 .password-input:hover {
   border: 0.125rem solid var(--primary-color);
+  border-radius: 0.25rem;
 }
 .text-input:focus,
 .number-input:focus,
 .password-input:focus {
   outline: none;
   border: 0.125rem solid var(--primary-color);
+  border-radius: 0.25rem;
 }
 .text-input::placeholder,
 .number-input::placeholder,
 .password-input::placeholder {
   color: var(--text-secondary-color);
-  font-weight: 600;
 }
 .input-container.error label,
 .err-msg {
@@ -49,6 +51,7 @@
 }
 .input-container.error input {
   border: 0.125rem solid var(--danger-color);
+  border-radius: 0.25rem;
 }
 .input-container.error input:focus {
   border: 0.125rem solid var(--red-600);
