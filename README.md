@@ -1,3 +1,7 @@
+
+
+
+
 <div align="center">
   
   
@@ -37,3 +41,4 @@ To get the styles of the components, add the following line of code in the head 
   * [Toast](https://glex-ui.vercel.app/components/toast/toast.html)
  
 ## Demo
+https://user-images.githubusercontent.com/52956782/154893587-c215157b-ce00-41b0-89cc-100420d2c0f5.mov
