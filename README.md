@@ -6,7 +6,7 @@
   
   
 # [Glex UI](https://glex-ui.vercel.app/)
-  Glex UI is a css library, integrated with predefined styled classes. 
+  Glex UI is a css library, responsive, integrated with predefined styled classes. 
 </div>
 
 ## Technology Used -
