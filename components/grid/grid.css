@@ -1,17 +1,17 @@
-.grid-responsive-layout{
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
-    gap: 1rem;
+.grid-responsive-layout {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
 }
-.grid-responsive-layout:nth-of-type(1){
-    background-color: var(--yellow-200);
+.grid-responsive-layout:nth-of-type(1) {
+  background-color: var(--yellow-200);
 }
-.grid-responsive-layout:nth-of-type(2){
-    background-color: var(--blue-200);
+.grid-responsive-layout:nth-of-type(2) {
+  background-color: var(--blue-200);
 }
-.grid-layout-child{
-    padding: 0.5rem;
-    justify-self: center;
-    align-self: center;
+.grid-layout-child {
+  padding: 0.5rem;
+  justify-self: center;
+  align-self: center;
 }

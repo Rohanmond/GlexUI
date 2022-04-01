@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html,
 body,
@@ -78,28 +78,27 @@ mark,
 audio,
 video,
 p {
-    border: 0;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
 }
 
-
 button {
-    border: none;
-    outline: none;
-    cursor: pointer;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 a {
-    text-decoration: none;
-    outline: none;
-    cursor: pointer;
-    color: var(--primary-color);
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--primary-color);
 }
-img,video{
-        max-inline-size: 100%;
-        block-size: auto;
-        object-fit: cover;
-        /* object-position: top center;  */
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
 }
