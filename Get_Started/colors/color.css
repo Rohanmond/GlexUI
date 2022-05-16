@@ -100,7 +100,7 @@
 .outlined-warn {
   background-color: var(--background-color);
   border: 0.125rem solid var(--warn-color);
-  color: var(--warn-color);
+  color: var(--yellow-600);
 }
 .outlined-danger {
   background-color: var(--background-color);

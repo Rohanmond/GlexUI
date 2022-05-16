@@ -1,12 +1,13 @@
-.alert{
-    width: 100%;
-    max-width: 80vw;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    justify-content: flex-start;
+.alert {
+  width: 100%;
+  max-width: 80vw;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 600;
+  justify-content: flex-start;
 }
-.alert-close{
-    margin-left: auto;
-    cursor: pointer;
+.alert-close {
+  margin-left: auto;
+  cursor: pointer;
 }

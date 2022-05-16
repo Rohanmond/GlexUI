@@ -1,22 +1,22 @@
-.img-responsive-container{
-    width: 100%;
-    max-width: 1200px;
+.img-responsive-container {
+  width: 100%;
+  max-width: 1200px;
 }
-.img-container{
-    width: 100%;
-    max-width: 300px;
+.img-container {
+  width: 100%;
+  max-width: 300px;
 }
-.img-responsive{
-    width: 100%;
+.img-responsive {
+  width: 100%;
 }
-.img-semi-square{
-    width: 100%;
-    border-radius: 10%;
+.img-semi-square {
+  width: 100%;
+  border-radius: 10%;
 }
-.img-circle{
-    width: 100%;
-    border-radius: 50%;
+.img-circle {
+  width: 100%;
+  border-radius: 50%;
 }
-.obj-pos-tp-ct{
-    object-position: top center;  
+.obj-pos-tp-ct {
+  object-position: top center;
 }

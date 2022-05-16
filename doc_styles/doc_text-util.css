@@ -1,8 +1,8 @@
-.doc-text-container{
-    width: 80%;
-    padding: 1rem;
-    background-color:var(--grey-200);
-    border-radius: 0.5rem;
-    display: flex;
-    flex-direction: column;
+.doc-text-container {
+  width: 80%;
+  padding: 1rem;
+  background-color: var(--grey-200);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
 }

@@ -1,21 +1,21 @@
-@import url("./doc_introduction.css");
-@import url("./doc_colors.css");
-@import url("./doc_alert.css");
-@import url("./doc_avatar.css");
-@import url("./doc_badge.css");
-@import url("./doc_button.css");
-@import url("./doc_card.css");
-@import url("./doc_drawar.css");
-@import url("./doc_grid.css");
-@import url("./doc_image.css");
-@import url("./doc_input.css");
-@import url("./doc_list.css");
-@import url("./doc_modal.css");
-@import url("./doc_navigation.css");
-@import url("./doc_rating.css");
-@import url("./doc_slider.css");
-@import url("./doc_text-util.css");
-@import url("./doc_toast.css");
+@import url('./doc_introduction.css');
+@import url('./doc_colors.css');
+@import url('./doc_alert.css');
+@import url('./doc_avatar.css');
+@import url('./doc_badge.css');
+@import url('./doc_button.css');
+@import url('./doc_card.css');
+@import url('./doc_drawar.css');
+@import url('./doc_grid.css');
+@import url('./doc_image.css');
+@import url('./doc_input.css');
+@import url('./doc_list.css');
+@import url('./doc_modal.css');
+@import url('./doc_navigation.css');
+@import url('./doc_rating.css');
+@import url('./doc_slider.css');
+@import url('./doc_text-util.css');
+@import url('./doc_toast.css');
 
 .doc-container {
   display: grid;
@@ -26,23 +26,23 @@
   grid-template-rows: 100px 1fr;
   grid-template-columns: 300px 1fr;
   grid-template-areas:
-    "nav nav nav nav"
-    "aside main main main"
-    "aside main main main"
-    "aside main main main"
-    "aside main main main"
-    "aside main main main";
+    'nav nav nav nav'
+    'aside main main main'
+    'aside main main main'
+    'aside main main main'
+    'aside main main main'
+    'aside main main main';
   overflow: hidden;
 }
 @media screen and (max-width: 750px) {
   .doc-container {
     grid-template-areas:
-      "nav nav nav"
-      "main main main"
-      "main main main"
-      "main main main"
-      "main main main"
-      "main main main";
+      'nav nav nav'
+      'main main main'
+      'main main main'
+      'main main main'
+      'main main main'
+      'main main main';
   }
   .doc-aside {
     display: none;
@@ -51,9 +51,6 @@
 .doc-nav {
   grid-area: nav;
   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-  /* position: sticky; */
-  /* top: 0; */
-  /* z-index: 99; */
 }
 .doc-nav-logo-container {
   max-width: 15rem;
